@@ -24,8 +24,8 @@ services:
     ports:
       - "3306"
 
-  mordor_backend:
-    build: .
+  backend:
+    build: ./backend/.
     environment:
       NODE_ENV: production
       MYSQL_PROD_DATABASE_HOST: mysql
@@ -42,6 +42,15 @@ services:
       traefik.enable: true
       traefik.frontend.rule: "PathPrefix:/;Host:api.byebye-russia.com"
       traefik.port: 3000
+
+  frontend:
+    build: ./frontend/.
+    ports:
+      - "80"
+    labels:
+      traefik.enable: true
+      traefik.frontend.rule: "PathPrefix:/;Host:www.byebye-russia.com"
+      traefik.port: 80
 
 volumes:
   mysql_data:
