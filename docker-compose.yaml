@@ -10,10 +10,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./config/traefik.toml:/etc/traefik/traefik.toml:ro
       - ./config/acme.json:/acme.json
-    labels:
-      traefik.enable: true
-      traefik.frontend.rule: 'Host: www.byebye-russia.com'
-      traefik.port: 8080
 
   mysql:
     image: mysql:5.7
