@@ -18,7 +18,7 @@ services:
   mysql:
     image: mysql:5.7
     volumes:
-      - mysql_data:/var/lib/mysql
+      - /app/sql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: "F0981ePZrwvq43tEeEwhge65ur6786sYGReGR"
     ports:
