@@ -1,0 +1,47 @@
+version: "3.5"
+
+services:
+  proxy:
+    image: traefik:1.7.6
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./config/traefik.toml:/etc/traefik/traefik.toml:ro
+      - ./config/acme.json:/acme.json
+    labels:
+      traefik.enable: true
+      traefik.frontend.rule: 'Host: www.byebye-russia.com'
+      traefik.port: 8080
+
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - mysql_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "F0981ePZrwvq43tEeEwhge65ur6786sYGReGR"
+    ports:
+      - "3306"
+
+  mordor_backend:
+    build: .
+    environment:
+      NODE_ENV: production
+      MYSQL_PROD_DATABASE_HOST: mysql
+      MYSQL_PROD_DATABASE_PORT: 3306
+      MYSQL_PROD_DATABASE_USER: root
+      MYSQL_PROD_DATABASE_PASSWORD: F0981ePZrwvq43tEeEwhge65ur6786sYGReGR
+      MYSQL_PROD_DATABASE_NAME: companies
+    volumes:
+      - /usr/src/app/node_modules
+    command: "node index.js"
+    ports:
+      - "3000:3000"
+    labels:
+      traefik.enable: true
+      traefik.frontend.rule: "PathPrefix:/;Host:api.byebye-russia.com"
+      traefik.port: 3000
+
+volumes:
+  mysql_data:
