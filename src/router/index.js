@@ -6,9 +6,9 @@ import { routes } from './routes'
 Vue.use(Router)
 
 const router = new Router({
-    linkActiveClass: 'is-active',
-    mode: 'history',
-    routes
+  linkActiveClass: 'is-active',
+  mode: 'history',
+  routes
 })
 
 export default router
