@@ -27,22 +27,10 @@ input[type=button], button {
   padding: 0;
 }
 
-//.page {
-//  height: 100%;
-//  width: 100%;
-//  background-color: green;
-//}
-
 .clearfix::after {
   display: table;
   clear: both;
   content: "";
-}
-
-.is-active {
-  //border-radius: 5px;
-  //border: 3px solid #bebebe;
-  //padding: 5px 15px;
 }
 
 .wrapper {
