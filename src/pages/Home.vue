@@ -1,37 +1,14 @@
 <template>
-  <main class="home-page">
+  <main class="home page">
     <section class="main-screen">
-      <div class="main-screen__bg"></div>
       <h1 class="main-screen__title">
         <span>STOP WORKING</span>
         <span>WITH RUSSIA</span>
       </h1>
-      <p class="main-screen__undertitle">{{count}} brands have already stopped working in Russia</p>
-      <div class="news-line">
-        <div class="news-line_top">
-          <div class="news-line_top_left">
-              <p class="support-tag">#standwithukraine</p>
-          </div>
-           <div class="news-line_top_right">
-              <p>211 brands have already stopped working in Russia.</p>
-          </div>
-        </div>
-        <div class="news-line_btm">
-           <div class="news-line_btm_left">
-              <p class="date">
-                <span class="day-date">{{ dayDate }}</span>
-                <span class="time">{{ time }}</span>
-              </p>
-          </div>
-           <div class="news-line_btm_right">
-              <div class="brands-animation">
-                <div class="brands-animation__item">BMW IKEA NIKE MCDONALDS CISCO FORMULA1 NETFLIX COURSERA</div>
-                <div class="brands-animation__item">BMW IKEA NIKE MCDONALDS CISCO FORMULA1 NETFLIX COURSERA</div>
-                <div class="brands-animation__item">BMW IKEA NIKE MCDONALDS CISCO FORMULA1 NETFLIX COURSERA</div>
-              </div>
-          </div>
-        </div>
-      </div>
+      <p class="main-screen__undertitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <!-- <div class="total-amount">
+        <div class="total-amount__num"> {{count}} </div>
+      </div> -->
     </section>
     <section class="brands-section">
       <div class="brands-section__wrapper">
@@ -39,6 +16,9 @@
           <div class="brands-section__sidebar__title">Filters</div>
           <div class="brands-section__categories">
             <div class="brands-section__categories__item" v-for="category in categories" :key="category.id">
+              <!-- <div class="brands-section__categories__item__img">
+                 <img alt="category-logo" />
+              </div> -->
               <div class="brands-section__categories__item__title" @click="fetchItemsInCategory(category)">
                 {{category}}
               </div>
@@ -46,9 +26,8 @@
           </div>
         </div>
         <div class="brands-section__cards">
-          <div class="brands-section__cards__wrapper">
           <div class="brands-section__cards__item" v-for="brand in items" :key="brand.id">
-            <a class="brands-section__cards__item__link" target="_blank" :href="brand.article != '' ? brand.article : ''">
+            <a class="brands-section__cards__item__link" target="_blank" :href="brand.article">
               <div class="brands-section__cards__item__logo">
                 <img :src="brand.logo" alt="ban-russia-brand" />
               </div>
@@ -56,7 +35,6 @@
                 {{ brand.name }}
               </div>
              </a>
-          </div>
           </div>
         </div>
       </div>
@@ -74,9 +52,7 @@ export default {
     return {
       count: 0,
       categories: [],
-      items: [],
-      interval: null,
-      time: null
+      items: []
     }
   },
   methods: {
@@ -108,22 +84,7 @@ export default {
   computed: {
     filterBrandsByCategory: () => {
       return this.products.filter(product => !product.category.indexOf(this.category))
-    },
-    dayDate: () => {
-      return new Date().toLocaleDateString()
     }
-  },
-  beforeDestroy () {
-    clearInterval(this.interval)
-  },
-  created () {
-    this.interval = setInterval(() => {
-      this.time = Intl.DateTimeFormat(navigator.language, {
-        hour: 'numeric',
-        minute: 'numeric',
-        second: 'numeric'
-      }).format()
-    }, 1000)
   }
 }
 </script>
