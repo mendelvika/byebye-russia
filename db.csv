@@ -1,212 +1,243 @@
 name,category,date,article,logo
-ASOS,clothes,02.03.2022,shorturl.at/fwGT9,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Asos.svg/1280px-Asos.svg.png
-Celine,clothes,,,https://r.lvmh-static.com/uploads/2014/10/celine_logo-e1538140405341.png
-Fendi,clothes,,,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Fendi_logo.svg/2560px-Fendi_logo.svg.png
-Marc Jacobs,clothes,,,https://www.brendov.net/wp-content/uploads/2018/06/MARC-JACOBS-LOGO.jpg
-Loro Piana,clothes,,,https://www.brendov.net/wp-content/uploads/2018/11/lp.png
-Kenzo,clothes,,,https://i.pinimg.com/originals/03/ae/67/03ae671b5ff3e8e78f49834c3a6ad963.png
-Loewe,clothes,,,https://logowik.com/content/uploads/images/loewe2671.jpg
-Givenchy,clothes,,,https://logos-world.net/wp-content/uploads/2020/11/Givenchy-Logo.png
-Hublot,clothes,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/a/ab/Hublot_logo.png
-Rolex,clothes,08.03.2022,,https://upload.wikimedia.org/wikipedia/ru/thumb/9/95/Rolex_logo.svg/1280px-Rolex_logo.svg.png
-Swarovski,clothes,,,https://beauty-prof.com/upload/iblock/900/900800f63367d430cf971f34a12c27da.jpg
-Cartier,clothes,,,https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1024px-Cartier_logo.svg.png
-Monki,clothes,,,https://searchlogovector.com/wp-content/uploads/2020/05/monki-logo-vector.png
-Cos,clothes,,,https://mma.prnewswire.com/media/1590776/COS_Logo.jpg?p=facebook
-Marks & Spencer,clothes,,,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Marks_%26_Spencer_new_logo.svg/1280px-Marks_%26_Spencer_new_logo.svg.png
-Tommy Hilfiger,clothes,,,https://i.pinimg.com/originals/d3/09/1a/d3091a1a5350fede679b2c7461b0745b.png
-Alexander McQueen,clothes,,,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Logo_of_Alexander_McQueen.svg/2560px-Logo_of_Alexander_McQueen.svg.png
-Calvin Klein,clothes,,,https://megazakaz.com/uploads/shop/620-1610379941.jpg
-Adidas,clothes,,,https://upload.wikimedia.org/wikipedia/commons/2/24/Adidas_logo.png
-Louis Vuitton,clothes,,,https://www.vhv.rs/dpng/d/457-4575367_gold-transparent-louis-vuitton-logo-png-louis-vuitton.png
-Yves Saint Laurent,clothes,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Yves_Saint_Laurent_Logo.svg/1280px-Yves_Saint_Laurent_Logo.svg.png
-Hermes,clothes,,,https://w7.pngwing.com/pngs/872/60/png-transparent-hermes-paris-logo-hermes-perfume-logo-eau-d-orange-verte-fashion-hermes-hermes-perfume-logo.png
-Balenciaga,clothes,,,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Balenciaga_Logo.svg/2560px-Balenciaga_Logo.svg.png
-Dior,clothes,,,https://esquilo.io/png/thumb/ow3dnPGgQIJTMKF-Black-Gucci-Logo-PNG-Image.png
-Chanel,clothes,,,https://w7.pngwing.com/pngs/444/859/png-transparent-chanel-logo-brand-trademark-chanel-text-trademark-chanel.png
-Zara,clothes,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zara_Logo.svg/1280px-Zara_Logo.svg.png
-Pull & Bear,clothes,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pull%26Bear_logo.svg/1280px-Pull%26Bear_logo.svg.png
-Massimo Dutti,clothes,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/7/74/Massimo_Dutti.png
-Oysho,clothes,06.03.2022,,https://w7.pngwing.com/pngs/677/843/png-transparent-oysho-hd-logo.png
-Bershka,clothes,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bershka_logo.svg/1024px-Bershka_logo.svg.png
-Uterqüe,clothes,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/c/c1/Uterque_logo.png
-Stradivarius,clothes,06.03.2022,,https://logos-world.net/wp-content/uploads/2020/11/Stradivarius-Emblem.png
-Puma,clothes,06.03.2022,,https://w7.pngwing.com/pngs/102/205/png-transparent-puma-logo-clothing-design-mammal-cat-like-mammal-text.png
-Prada ,clothes,06.03.2022,,https://img2.freepng.ru/20180724/iji/kisspng-logo-brand-prada-glasses-perfume-prada-bag-5b56aa72f1d0b7.7681946915324063869905.jpg
-H&M,clothes,,,https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1280px-H%26M-Logo.svg.png
+ASOS,clothes,02.03.2022,https://shorturl.at/fwGT9,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Asos.svg/1280px-Asos.svg.png
+Celine,clothes,,https://www.celine.com/en-int/home,https://r.lvmh-static.com/uploads/2014/10/celine_logo-e1538140405341.png
+Fendi,clothes,,https://www.fendi.com/de-en/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Fendi_logo.svg/2560px-Fendi_logo.svg.png
+Marc Jacobs,clothes,,https://www.marcjacobs.com/,https://www.brendov.net/wp-content/uploads/2018/06/MARC-JACOBS-LOGO.jpg
+Loro Piana,clothes,,https://ua.loropiana.com/en/,https://www.brendov.net/wp-content/uploads/2018/11/lp.png
+Kenzo,clothes,,https://m.kenzo.com/eu/en/home,https://i.pinimg.com/originals/03/ae/67/03ae671b5ff3e8e78f49834c3a6ad963.png
+Loewe,clothes,,https://www.loewe.com/eur/en/home,https://logowik.com/content/uploads/images/loewe2671.jpg
+Givenchy,clothes,,https://www.givenchy.com/us/en-US/homepage,https://logos-world.net/wp-content/uploads/2020/11/Givenchy-Logo.png
+Hublot,clothes,08.03.2022,https://www.hublot.com/,https://upload.wikimedia.org/wikipedia/commons/a/ab/Hublot_logo.png
+Rolex,clothes,08.03.2022,https://www.rolex.com/,https://upload.wikimedia.org/wikipedia/ru/thumb/9/95/Rolex_logo.svg/1280px-Rolex_logo.svg.png
+Swarovski,clothes,,https://www.swarovski.com/,https://beauty-prof.com/upload/iblock/900/900800f63367d430cf971f34a12c27da.jpg
+Cartier,clothes,,https://www.cartier.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cartier_logo.svg/1024px-Cartier_logo.svg.png
+Monki,clothes,,https://www.monki.com/,https://searchlogovector.com/wp-content/uploads/2020/05/monki-logo-vector.png
+Cos,clothes,,https://www.cosstores.com/,https://mma.prnewswire.com/media/1590776/COS_Logo.jpg?p=facebook
+Marks & Spencer,clothes,,https://www.marksandspencer.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Marks_%26_Spencer_new_logo.svg/1280px-Marks_%26_Spencer_new_logo.svg.png
+Tommy Hilfiger,clothes,,https://global.tommy.com/,https://i.pinimg.com/originals/d3/09/1a/d3091a1a5350fede679b2c7461b0745b.png
+Alexander McQueen,clothes,,https://www.alexandermcqueen.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Logo_of_Alexander_McQueen.svg/2560px-Logo_of_Alexander_McQueen.svg.png
+Calvin Klein,clothes,,https://www.calvinklein.us/en,https://megazakaz.com/uploads/shop/620-1610379941.jpg
+Adidas,clothes,,https://www.adidas.com/us,https://upload.wikimedia.org/wikipedia/commons/2/24/Adidas_logo.png
+Louis Vuitton,clothes,,https://eu.louisvuitton.com/eng-e1/homepage,https://www.vhv.rs/dpng/d/457-4575367_gold-transparent-louis-vuitton-logo-png-louis-vuitton.png
+Yves Saint Laurent,clothes,,https://www.ysl.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Yves_Saint_Laurent_Logo.svg/1280px-Yves_Saint_Laurent_Logo.svg.png
+Hermes,clothes,,https://www.hermes.com/us/en/,https://w7.pngwing.com/pngs/872/60/png-transparent-hermes-paris-logo-hermes-perfume-logo-eau-d-orange-verte-fashion-hermes-hermes-perfume-logo.png
+Balenciaga,clothes,,https://www.balenciaga.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Balenciaga_Logo.svg/2560px-Balenciaga_Logo.svg.png
+Dior,clothes,,https://www.dior.com/,https://esquilo.io/png/thumb/ow3dnPGgQIJTMKF-Black-Gucci-Logo-PNG-Image.png
+Chanel,clothes,,https://www.chanel.com/us/,https://w7.pngwing.com/pngs/444/859/png-transparent-chanel-logo-brand-trademark-chanel-text-trademark-chanel.png
+Zara,clothes,06.03.2022,https://www.zara.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Zara_Logo.svg/1280px-Zara_Logo.svg.png
+Pull & Bear,clothes,06.03.2022,https://www.pullandbear.com/ua/en/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pull%26Bear_logo.svg/1280px-Pull%26Bear_logo.svg.png
+Massimo Dutti,clothes,06.03.2022,https://www.massimodutti.com/,https://upload.wikimedia.org/wikipedia/commons/7/74/Massimo_Dutti.png
+Oysho,clothes,06.03.2022,https://www.oysho.com/ua/,https://w7.pngwing.com/pngs/677/843/png-transparent-oysho-hd-logo.png
+Bershka,clothes,06.03.2022,https://www.bershka.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bershka_logo.svg/1024px-Bershka_logo.svg.png
+Uterqüe,clothes,06.03.2022,https://www.uterque.com/,https://upload.wikimedia.org/wikipedia/commons/c/c1/Uterque_logo.png
+Stradivarius,clothes,06.03.2022,https://www.stradivarius.com/ua/,https://logos-world.net/wp-content/uploads/2020/11/Stradivarius-Emblem.png
+Puma,clothes,06.03.2022,https://us.puma.com/,https://w7.pngwing.com/pngs/102/205/png-transparent-puma-logo-clothing-design-mammal-cat-like-mammal-text.png
+Prada ,clothes,06.03.2022,https://www.prada.com/,https://img2.freepng.ru/20180724/iji/kisspng-logo-brand-prada-glasses-perfume-prada-bag-5b56aa72f1d0b7.7681946915324063869905.jpg
+H&M,clothes,,https://www.hm.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/H%26M-Logo.svg/1280px-H%26M-Logo.svg.png
 Nike,clothes,,https://www.nike.com/ru/,https://logos-world.net/wp-content/uploads/2020/04/Nike-Logo.png
-Levi Strauss&Co ,clothes,07.03.2022,,https://w7.pngwing.com/pngs/905/450/png-transparent-levi-strauss-co-logo-jeans-clothing-levi-s-501-jeans-levi-strauss-amp-co.png
-Sinsay,clothes,08.03.2022,,http://okhtamall.ru/files/2020/07/logo-sinsay-01.png
-Cropp,clothes,08.03.2022,,https://ekvator.ua/rivne/wp-content/uploads/sites/10/2020/08/Logo-dlya-sajta-22-scaled.jpg
-House Brand ,clothes,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/House_brand_logo.svg/2560px-House_brand_logo.svg.png
-Helly Hansen,clothes,08.03.2022,,https://logos-world.net/wp-content/uploads/2020/12/Helly-Hansen-Logo.png
-Panasonic,electronics,,,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Panasonic_logo_%28Blue%29.svg/1280px-Panasonic_logo_%28Blue%29.svg.png
-Intel,electronics,,,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Intel_logo_%282006-2020%29.svg/1005px-Intel_logo_%282006-2020%29.svg.png
-AMD,electronics,,,https://upload.wikimedia.org/wikipedia/commons/6/6a/AMD_Logo.png
-Siemens,electronics,,,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/2560px-Siemens-logo.svg.png
-Nokia,electronics,,,https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nokia_wordmark.svg/2560px-Nokia_wordmark.svg.png
-Apple,electronics,03.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png
-Nvidia,electronics,06.03.2022,,https://upload.wikimedia.org/wikipedia/uk/archive/c/c0/20190113095229%21NVIDIA_logo.png
-General Electric,electronics,08.03.2022,,https://logos-world.net/wp-content/uploads/2021/08/GE-Symbol.png
-Kuna,finance,,,https://kuna.io/static-files/1946038fcd528f652d4e.svg
-Coinbase,finance,07.03.2022,,https://1000logos.net/wp-content/uploads/2022/03/Coinbase-logo.png
-Wirex,finance,25.02.2022,,https://brandpalettes.com/wp-content/uploads/2021/03/wirex-02.png
+Levi Strauss&Co ,clothes,07.03.2022,https://www.levistrauss.com/,https://w7.pngwing.com/pngs/905/450/png-transparent-levi-strauss-co-logo-jeans-clothing-levi-s-501-jeans-levi-strauss-amp-co.png
+Sinsay,clothes,08.03.2022,https://www.sinsay.com/,http://okhtamall.ru/files/2020/07/logo-sinsay-01.png
+Cropp,clothes,08.03.2022,https://www.cropp.com/,https://ekvator.ua/rivne/wp-content/uploads/sites/10/2020/08/Logo-dlya-sajta-22-scaled.jpg
+House Brand ,clothes,08.03.2022,https://www.housebrand.com/ho/en/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/House_brand_logo.svg/2560px-House_brand_logo.svg.png
+Helly Hansen,clothes,08.03.2022,https://www.hellyhansen.com/,https://logos-world.net/wp-content/uploads/2020/12/Helly-Hansen-Logo.png
+Victoria's Secret ,clothes,09.03.2022,https://www.victoriassecret.com/us/,https://logos-world.net/wp-content/uploads/2020/05/Victoria-Secret-Logo.png
+Mothercare ,clothes,09.03.2022,https://www.reuters.com/world/uk/britains-mothercare-suspends-all-business-russia-2022-03-09/?taid=62285faf07024b000156ae0f&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter,http://lofrev.net/wp-content/photos/2016/06/mothercare-logo-1.png
+Panasonic,electronics,,https://www.panasonic.com/global/home.html,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Panasonic_logo_%28Blue%29.svg/1280px-Panasonic_logo_%28Blue%29.svg.png
+Intel,electronics,,https://www.intel.com/content/www/us/en/homepage.html,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Intel_logo_%282006-2020%29.svg/1005px-Intel_logo_%282006-2020%29.svg.png
+AMD,electronics,,https://www.amd.com/en,https://upload.wikimedia.org/wikipedia/commons/6/6a/AMD_Logo.png
+Siemens,electronics,,https://www.siemens.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/2560px-Siemens-logo.svg.png
+Nokia,electronics,,https://www.nokia.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nokia_wordmark.svg/2560px-Nokia_wordmark.svg.png
+Apple,electronics,03.03.2022,https://www.apple.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png
+Nvidia,electronics,06.03.2022,https://www.nvidia.com/,https://upload.wikimedia.org/wikipedia/uk/archive/c/c0/20190113095229%21NVIDIA_logo.png
+General Electric,electronics,08.03.2022,https://www.ge.com/,https://logos-world.net/wp-content/uploads/2021/08/GE-Symbol.png
+Kuna,finance,,https://kuna.io/,https://kuna.io/static-files/1946038fcd528f652d4e.svg
+Coinbase,finance,07.03.2022,https://www.coinbase.com/,https://1000logos.net/wp-content/uploads/2022/03/Coinbase-logo.png
+Wirex,finance,25.02.2022,https://wirexapp.com/en-ua,https://brandpalettes.com/wp-content/uploads/2021/03/wirex-02.png
 Paysera,finance,,https://finance.liga.net/ekonomika/novosti/solidarny-s-ukrainoy-evropeyskaya-platejnaya-sistema-zakryla-vse-scheta-klientov-iz-rossii,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Paysera_logo.png/1200px-Paysera_logo.png
-JCB,finance,07.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/2560px-JCB_logo.svg.png
-Apple Pay ,finance,03.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Pay_logo.svg/1280px-Apple_Pay_logo.svg.png
-Cex Io,finance,,,https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/CEX.IO_Bitcoin_Exchange_logo.svg/1280px-CEX.IO_Bitcoin_Exchange_logo.svg.png
-American Express,finance,02.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/1200px-American_Express_logo_%282018%29.svg.png
-Payoneer,finance,06.03.2022,,https://w7.pngwing.com/pngs/343/18/png-transparent-payoneer-payment-logo-business-bank-mastercard-company-text-trademark.png
-Interkassa,finance,06.03.2022,,https://www.interkassa.com/resource/images/brandbook/b-logo-horizontal.png
-PayPal ,finance,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/2560px-PayPal.svg.png
-Binance,finance,09.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Binance_logo.svg/2560px-Binance_logo.svg.png
-Mastercard,finance,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/800px-Mastercard-logo.svg.png
-Visa,finance,,,https://w7.pngwing.com/pngs/20/987/png-transparent-logo-visa-credit-card-business-visa-text-trademark-payment.png
-Boeing,aviation,,,https://w7.pngwing.com/pngs/717/419/png-transparent-boeing-logo-business-nyse-ba-boeing-777-blue-angle-white.png
+JCB,finance,07.03.2022,https://www.jcb.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JCB_logo.svg/2560px-JCB_logo.svg.png
+Apple Pay ,finance,03.03.2022,https://www.apple.com/apple-pay/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Pay_logo.svg/1280px-Apple_Pay_logo.svg.png
+Cex Io,finance,,https://cex.io/,https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/CEX.IO_Bitcoin_Exchange_logo.svg/1280px-CEX.IO_Bitcoin_Exchange_logo.svg.png
+American Express,finance,02.03.2022,https://www.americanexpress.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/American_Express_logo_%282018%29.svg/1200px-American_Express_logo_%282018%29.svg.png
+Payoneer,finance,06.03.2022,https://www.payoneer.com/,https://w7.pngwing.com/pngs/343/18/png-transparent-payoneer-payment-logo-business-bank-mastercard-company-text-trademark.png
+Interkassa,finance,06.03.2022,https://www.interkassa.com/,https://www.interkassa.com/resource/images/brandbook/b-logo-horizontal.png
+PayPal ,finance,06.03.2022,https://www.paypal.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/2560px-PayPal.svg.png
+Binance,finance,09.03.2022,https://www.binance.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Binance_logo.svg/2560px-Binance_logo.svg.png
+Mastercard,finance,,https://www.mastercard.com/global/en.html,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/800px-Mastercard-logo.svg.png
+Visa,finance,,https://www.visa.com.ua/,https://w7.pngwing.com/pngs/20/987/png-transparent-logo-visa-credit-card-business-visa-text-trademark-payment.png
+Boeing,aviation,,https://www.boeing.com/,https://w7.pngwing.com/pngs/717/419/png-transparent-boeing-logo-business-nyse-ba-boeing-777-blue-angle-white.png
 AerCap,aviation,28.02.2022,https://www.reuters.com/business/aerospace-defense/aercap-cease-leasing-activity-with-russian-airlines-2022-02-28/,https://pbs.twimg.com/media/EISWZl2XkAAIph1.png
-Airbus,aviation,,,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Airbus_Logo_2017.svg/2560px-Airbus_Logo_2017.svg.png
-Dassault Aviation,aviation,,,https://upload.wikimedia.org/wikipedia/uk/thumb/4/4e/Dassault_Aviation_Logo.svg/2560px-Dassault_Aviation_Logo.svg.png
-Azal,aviation,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/AZAL.logo.png/1024px-AZAL.logo.png
-Buta Airways,aviation,06.03.2022,,https://www.butaairways.az/assets/images/cover_center.png
-Azur Air,aviation,06.03.2022,,https://seekvectorlogo.com/wp-content/uploads/2018/04/azurair-vector-logo.png
-Air France,aviation,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Air_France_Logo.svg/2560px-Air_France_Logo.svg.png
-Volkswagen,cars,03.03.2022,,https://w7.pngwing.com/pngs/640/27/png-transparent-volkswagen-group-volkswagen-beetle-car-volkswagen-touareg-decal-emblem-trademark-logo.pngg
-Audi,cars,,,https://w7.pngwing.com/pngs/575/243/png-transparent-2015-audi-a6-car-logo-desktop-audi-text-trademark-audi.png
-BMW,cars,,,https://pngimg.com/uploads/bmw_logo/bmw_logo_PNG19707.png
-Renault,cars,,,https://amacoint.com/wp-content/uploads/2017/03/Renault-logo-1024x1024.jpg
-Chevrolet,cars,,,https://w7.pngwing.com/pngs/863/573/png-transparent-chevrolet-impala-car-general-motors-logo-chevrolet-logo-car-desktop-wallpaper.png
-Cadillac,cars,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkknhXSKykvrnI4r-X5u0AKIDwa-R1dKHOPdliG9XXfiQelbknKNQRBJOHp6QhL8dN-oM&usqp=CAU
-Porsche,cars,03.03.2022,,https://upload.wikimedia.org/wikipedia/ru/5/55/Porsche_logo.png
+Airbus,aviation,,https://www.airbus.com/en,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Airbus_Logo_2017.svg/2560px-Airbus_Logo_2017.svg.png
+Dassault Aviation,aviation,,https://www.dassault-aviation.com/en/,https://upload.wikimedia.org/wikipedia/uk/thumb/4/4e/Dassault_Aviation_Logo.svg/2560px-Dassault_Aviation_Logo.svg.png
+Azal,aviation,06.03.2022,https://www.azal.az/en/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/AZAL.logo.png/1024px-AZAL.logo.png
+Buta Airways,aviation,06.03.2022,https://www.butaairways.az/en/,https://www.butaairways.az/assets/images/cover_center.png
+Azur Air,aviation,06.03.2022,https://azurair.ua/,https://seekvectorlogo.com/wp-content/uploads/2018/04/azurair-vector-logo.png
+Air France,aviation,06.03.2022,https://www.airfrance.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Air_France_Logo.svg/2560px-Air_France_Logo.svg.png
+Volkswagen,cars,03.03.2022,https://www.volkswagen.ua/,https://w7.pngwing.com/pngs/640/27/png-transparent-volkswagen-group-volkswagen-beetle-car-volkswagen-touareg-decal-emblem-trademark-logo.pngg
+Audi,cars,,https://www.audi.com/,https://w7.pngwing.com/pngs/575/243/png-transparent-2015-audi-a6-car-logo-desktop-audi-text-trademark-audi.png
+BMW,cars,,https://www.bmw.com/,https://pngimg.com/uploads/bmw_logo/bmw_logo_PNG19707.png
+Renault,cars,,https://www.renault.com/,https://amacoint.com/wp-content/uploads/2017/03/Renault-logo-1024x1024.jpg
+Chevrolet,cars,,https://www.chevrolet.com/,https://w7.pngwing.com/pngs/863/573/png-transparent-chevrolet-impala-car-general-motors-logo-chevrolet-logo-car-desktop-wallpaper.png
+Cadillac,cars,,https://www.caddilac.com/,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkknhXSKykvrnI4r-X5u0AKIDwa-R1dKHOPdliG9XXfiQelbknKNQRBJOHp6QhL8dN-oM&usqp=CAU
+Porsche,cars,03.03.2022,https://www.porsche.com/,https://upload.wikimedia.org/wikipedia/ru/5/55/Porsche_logo.png
 Skoda,cars,03.03.2022,https://ru.motor1.com/news/571185/skoda-stop-production/,https://w7.pngwing.com/pngs/273/475/png-transparent-%C5%A0koda-auto-car-%C5%A0koda-superb-%C5%A0koda-vision-x-skoda-text-logo-car.png
-Suzuki,cars,03.03.2022,,https://w7.pngwing.com/pngs/417/924/png-transparent-suzuki-sj-car-suzuki-swift-logo-suzuki-text-motorcycle-business.png
-Toyota,cars,04.03.2022,,https://w7.pngwing.com/pngs/228/139/png-transparent-toyota-86-car-toyota-motor-philippines-corporation-toyota-australia-toyota-emblem-text-trademark.png
-Lexus,cars,04.03.2022,,https://assets.stickpng.com/images/580b57fcd9996e24bc43c48b.png
+Suzuki,cars,03.03.2022,https://www.suzuki.com/,https://w7.pngwing.com/pngs/417/924/png-transparent-suzuki-sj-car-suzuki-swift-logo-suzuki-text-motorcycle-business.png
+Toyota,cars,04.03.2022,https://www.toyota.com/,https://w7.pngwing.com/pngs/228/139/png-transparent-toyota-86-car-toyota-motor-philippines-corporation-toyota-australia-toyota-emblem-text-trademark.png
+Lexus,cars,04.03.2022,https://www.lexus.com/,https://assets.stickpng.com/images/580b57fcd9996e24bc43c48b.png
 Jaguar Land Rover,cars,25.02.2022,https://autoreview.ru/news/kompaniya-jaguar-land-rover-ostanovila-postavki-avtomobiley-v-rossiyu,https://w7.pngwing.com/pngs/62/850/png-transparent-jaguar-land-rover-jaguar-cars-land-rover-emblem-label-text.png
-General Motors,cars,01.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/General_Motors_logo.svg/1200px-General_Motors_logo.svg.png
+General Motors,cars,01.03.2022,https://www.gm.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/General_Motors_logo.svg/1200px-General_Motors_logo.svg.png
 Volvo,cars,01.03.2022,https://motor.ru/news/russian-cars-market-01-03-2022.htm,https://pngimg.com/uploads/volvo/volvo_PNG64.png
-Scania,cars,01.03.2022,,https://upload.wikimedia.org/wikipedia/ru/thumb/8/89/Scania_Logo.svg/1280px-Scania_Logo.svg.png
-Honda,cars,02.03.2022,,https://logos-world.net/wp-content/uploads/2021/03/Honda-Logo.png
+Scania,cars,01.03.2022,https://www.scania.com/,https://upload.wikimedia.org/wikipedia/ru/thumb/8/89/Scania_Logo.svg/1280px-Scania_Logo.svg.png
+Honda,cars,02.03.2022,https://www.honda.com/,https://logos-world.net/wp-content/uploads/2021/03/Honda-Logo.png
 Ford,cars,,https://media.ford.com/content/fordmedia/fna/us/en/news/2022/03/01/ford-russia-ukraine-statement.html,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ford_Motor_Company_Logo.svg/2560px-Ford_Motor_Company_Logo.svg.png
-Mazda,cars,02.03.2022,,https://logos-world.net/wp-content/uploads/2020/05/Mazda-Logo.png
-Continental ,cars,08.03.2022,,https://cdn.worldvectorlogo.com/logos/continental-54.svg
-Ferrari,cars,08.03.2022,,https://upload.wikimedia.org/wikipedia/ru/thumb/d/d1/Ferrari-Logo.svg/1281px-Ferrari-Logo.svg.png
+Mazda,cars,02.03.2022,https://www.mazda.com/,https://logos-world.net/wp-content/uploads/2020/05/Mazda-Logo.png
+Continental ,cars,08.03.2022,https://www.continental.com/,https://cdn.worldvectorlogo.com/logos/continental-54.svg
+Ferrari,cars,08.03.2022,https://www.ferrari.com/,https://upload.wikimedia.org/wikipedia/ru/thumb/d/d1/Ferrari-Logo.svg/1281px-Ferrari-Logo.svg.png
 Lamborghini,cars,08.03.2022,https://media.lamborghini.com/English/LATEST-NEWS/donation-for-ukraine/s/ff925bbb-3b76-4f26-9102-3e61651e66b9,https://pngimg.com/uploads/lamborghini/lamborghini_PNG10709.png
+Iveco,cars,09.03.2022,https://www.iveco.com/,https://cdn.worldvectorlogo.com/logos/iveco.svg
 Lego,entertainment,02.03.2022,https://finans.dk/oauth2/login-landing.jsp?error=access_denied&error_description=no%20user%20logged%20in&state=cbdf78331fc94ecfb394a35124cc4639,https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png
-Netflix,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg
-TikTok,entertainment,,,https://cdn.pixabay.com/photo/2021/01/30/06/42/tiktok-5962992_960_720.png
-Warner Bros,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/6/64/Warner_Bros_logo.svg
-Sony,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/1280px-Sony_logo.svg.png
-Universal pictures,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/4/49/Universal_Pictures_logo_2.png
-Play Station,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/PlayStation_logo.svg/2560px-PlayStation_logo.svg.png
-Walt Disney,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Walt_Disney_Pictures_text_logo.svg/2560px-Walt_Disney_Pictures_text_logo.svg.png
-UBISOFT,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ubisoft_logo.svg/2238px-Ubisoft_logo.svg.png
-EA Games,entertainment,,,https://brandslogos.com/wp-content/uploads/images/ea-games-logo-vector.svg
-Steam,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png
-WePlay Esports,entertainment,,,https://liquipedia.net/commons/images/thumb/4/44/WePlay_Esports_logo_2019.png/489px-WePlay_Esports_logo_2019.png
-Epic Games,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/413px-Epic_Games_logo.svg.png
-Megogo,entertainment,,,https://blog.megogo.net/wp-content/uploads/2021/01/logo-full-01-1.png
-Paramount,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Paramount_Pictures_Corporation_logo.svg/1200px-Paramount_Pictures_Corporation_logo.svg.png
-Rockstar Games,entertainment,,,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Rockstar_Dundee_Logo.svg/1200px-Rockstar_Dundee_Logo.svg.png
-Activision Blizzard,entertainment,,,https://i.pinimg.com/originals/ac/db/d7/acdbd7476b14d688d88ea3f690e65803.png
-CD Projekt Red,entertainment,,,https://upload.wikimedia.org/wikipedia/ru/thumb/6/68/CD_Projekt_logo.svg/1200px-CD_Projekt_logo.svg.png
-Elisa Esports,entertainment,,,https://liquipedia.net/commons/images/9/97/Elisa_Esports_lightmode.png
-Cinema 4D,entertainment,,,https://w7.pngwing.com/pngs/702/982/png-transparent-cinema-4d-animated-film-computer-software-3d-computer-graphics-3d-modeling-others-3d-computer-graphics-computer-wallpaper-sphere.png
-GOG,entertainment,,,https://logowik.com/content/uploads/images/gogcom8697.jpg
-Minecraft,entertainment,,,https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/2/2020/06/image14-3.png
+Netflix,entertainment,,https://www.netfilx.com/,https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg
+TikTok,entertainment,,https://www.tiktok.com/,https://cdn.pixabay.com/photo/2021/01/30/06/42/tiktok-5962992_960_720.png
+Warner Bros,entertainment,,https://www.warnerbros.com/,https://upload.wikimedia.org/wikipedia/commons/6/64/Warner_Bros_logo.svg
+Sony,entertainment,,https://www.sony.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/1280px-Sony_logo.svg.png
+Universal pictures,entertainment,,https://www.universalpictures.com/,https://upload.wikimedia.org/wikipedia/commons/4/49/Universal_Pictures_logo_2.png
+Play Station,entertainment,,https://www.playstation.com/en-us/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/PlayStation_logo.svg/2560px-PlayStation_logo.svg.png
+Walt Disney,entertainment,,https://thewaltdisneycompany.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Walt_Disney_Pictures_text_logo.svg/2560px-Walt_Disney_Pictures_text_logo.svg.png
+UBISOFT,entertainment,,https://www.ubisoft.com/en-us/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ubisoft_logo.svg/2238px-Ubisoft_logo.svg.png
+EA Games,entertainment,,https://www.ea.com/,https://brandslogos.com/wp-content/uploads/images/ea-games-logo-vector.svg
+Steam,entertainment,,https://store.steampowered.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png
+WePlay Esports,entertainment,,https://weplay.tv/,https://liquipedia.net/commons/images/thumb/4/44/WePlay_Esports_logo_2019.png/489px-WePlay_Esports_logo_2019.png
+Epic Games,entertainment,,https://www.epicgames.com/store/en-US/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/413px-Epic_Games_logo.svg.png
+Megogo,entertainment,,https://megogo.net/,https://blog.megogo.net/wp-content/uploads/2021/01/logo-full-01-1.png
+Paramount,entertainment,,https://www.paramount.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Paramount_Pictures_Corporation_logo.svg/1200px-Paramount_Pictures_Corporation_logo.svg.png
+Rockstar Games,entertainment,,https://www.rockstargames.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Rockstar_Dundee_Logo.svg/1200px-Rockstar_Dundee_Logo.svg.png
+Activision Blizzard,entertainment,,https://www.activisionblizzard.com/content/atvi/activisionblizzard/ab-touchui/ab/web/en/home.html,https://i.pinimg.com/originals/ac/db/d7/acdbd7476b14d688d88ea3f690e65803.png
+CD Projekt Red,entertainment,,https://en.cdprojektred.com/,https://upload.wikimedia.org/wikipedia/ru/thumb/6/68/CD_Projekt_logo.svg/1200px-CD_Projekt_logo.svg.png
+Elisa Esports,entertainment,,https://elisaesports.fi/,https://liquipedia.net/commons/images/9/97/Elisa_Esports_lightmode.png
+Cinema 4D,entertainment,,https://www.maxon.net/cinema-4d,https://w7.pngwing.com/pngs/702/982/png-transparent-cinema-4d-animated-film-computer-software-3d-computer-graphics-3d-modeling-others-3d-computer-graphics-computer-wallpaper-sphere.png
+GOG,entertainment,,https://www.gog.com/,https://logowik.com/content/uploads/images/gogcom8697.jpg
+Minecraft,entertainment,,https://www.minecraft.net/,https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/2/2020/06/image14-3.png
+SUPERCELL,entertainment,09.03.2022,http://supercell.com/en/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Supercell-logo.svg/2516px-Supercell-logo.svg.png
 Namecheap,tech,01.03.2022,https://tech.liga.net/technology/novosti/registrator-domenov-i-veb-hosting-namecheap-otkazyvaetsya-ot-klientov-iz-rossii,https://www.pikpng.com/pngl/m/340-3403145_namecheap-logo-name-cheap-clipart.png
-IBM ,tech,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/2560px-IBM_logo.svg.png
-TSMC,tech,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png
-SAP,tech,,,https://cdn.freelogovectors.net/wp-content/uploads/2020/09/tsmc-logo.png
-Oracle,tech,,,https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/2560px-Oracle_logo.svg.png
-Grammarly,tech,,,https://upload.wikimedia.org/wikipedia/uk/b/be/Logo-grammarly.png
-Autodesk,tech,,,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Autodesk_Logo.svg/2560px-Autodesk_Logo.svg.png
-Andersen,tech,,,https://highload.today/wp-content/uploads/2022/03/anders1.jpg
-Cogent,tech,,,http://photos.prnewswire.com/prnfull/20020204/DCM032LOGO
+IBM ,tech,06.03.2022,https://www.ibm.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/2560px-IBM_logo.svg.png
+TSMC,tech,,https://www.tsmc.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png
+SAP,tech,,https://www.sap.com/,https://cdn.freelogovectors.net/wp-content/uploads/2020/09/tsmc-logo.png
+Oracle,tech,,https://www.oracle.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/2560px-Oracle_logo.svg.png
+Grammarly,tech,,https://www.grammarly.com/,https://upload.wikimedia.org/wikipedia/uk/b/be/Logo-grammarly.png
+Autodesk,tech,,https://www.autodesk.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Autodesk_Logo.svg/2560px-Autodesk_Logo.svg.png
+Andersen,tech,,https://www.andersen.com/,https://highload.today/wp-content/uploads/2022/03/anders1.jpg
+Cogent,tech,,https://www.cogent.com/,http://photos.prnewswire.com/prnfull/20020204/DCM032LOGO
 OneWeb,tech,03.03.2022,https://twitter.com/OneWeb/status/1499317405029437447,"https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/wcuqqjuv7s6ofhabnmnj"
 CERN,tech,08.03.2022,https://home.cern/news/news/cern/cern-council-responds-russian-invasion-ukraine,http://www.eso.org/public/archives/logos/screen/cern.jpg
-EPAM,tech,,,https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Effective_Programming_for_America_logo.svg/1200px-Effective_Programming_for_America_logo.svg.png
-Microsoft,tech,,,https://seekvectorlogo.com/wp-content/uploads/2017/12/microsoft-vector-logo.png
-Dropbox,tech,,,https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Dropbox_logo_2017.svg/2560px-Dropbox_logo_2017.svg.png
-MacPaw,tech,06.03.2022,,https://getlogovector.com/wp-content/uploads/2019/10/macpaw-logo-vector.png
-Adobe,tech,,,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Adobe_Corporate_Logo.png/1200px-Adobe_Corporate_Logo.png
-VMware,tech,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/2560px-Vmware.svg.png
+EPAM,tech,,https://www.epam.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Effective_Programming_for_America_logo.svg/1200px-Effective_Programming_for_America_logo.svg.png
+Microsoft,tech,,https://www.microsoft.com/,https://seekvectorlogo.com/wp-content/uploads/2017/12/microsoft-vector-logo.png
+Dropbox,tech,,https://www.dropbox.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Dropbox_logo_2017.svg/2560px-Dropbox_logo_2017.svg.png
+MacPaw,tech,06.03.2022,https://www.macpaw.com/,https://getlogovector.com/wp-content/uploads/2019/10/macpaw-logo-vector.png
+Adobe,tech,,https://www.adobe.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Adobe_Corporate_Logo.png/1200px-Adobe_Corporate_Logo.png
+VMware,tech,08.03.2022,https://www.vmware.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Vmware.svg/2560px-Vmware.svg.png
 Akamai,tech,07.03.2022,https://www.akamai.com/blog/news/ukraine-statement?fbclid=IwAR3YopiS1MW-aka2Q3y7n5McTSLzqROVFDC23QKoi_Li43NfpC8kwnwAhpQ,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Akamai_logo.svg/2560px-Akamai_logo.svg.png
-Lumen Technologies,tech,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lumen_Technologies_logo.svg/2560px-Lumen_Technologies_logo.svg.png
-Zoom,online services,,,https://logos-world.net/wp-content/uploads/2021/02/Zoom-Logo.png
-Depositphotos,online services,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/9/9b/Depositphotos_logo.jpg
-VistaCreate,online services,08.03.2022,,https://happymonday.ua/wp-content/uploads/2021/07/VistaCreate_H_Color.png
-Etsy,online services,02.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Etsy_logo.svg/2560px-Etsy_logo.svg.png
+Lumen Technologies,tech,08.03.2022,https://www.lumen.com/en-us/home.html,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lumen_Technologies_logo.svg/2560px-Lumen_Technologies_logo.svg.png
+Serpstat ,tech,,https://www.google.com/aclk?sa=L&ai=DChcSEwjttee7mrr2AhUPyBgKHeAhArgYABAAGgJsZQ&ae=2&sig=AOD64_2SdVRT6EeiznCkeOocqXXD_rN73A&q&adurl&ved=2ahUKEwijk927mrr2AhVno4sKHdTNCEYQ0Qx6BAgDEAE,https://media.trustradius.com/product-logos/B5/QE/S5U5C9LK9P22.PNG
+Poster POS,tech,,https://joinposter.com/en,https://play-lh.googleusercontent.com/uN6eTC3dDQAq5OPHeGAOxzLDncqgTMCMRTF2pm3gaLB9fh4oCSQhksK-xckquZVA5HXk=s360-rw
+Bitrix24,tech,,https://www.bitrix24.com/,https://static.tildacdn.com/tild3531-6232-4238-a336-363535373063/bitrix24_logo.png
+inCust,tech,,https://incust.com/en/,https://incust.com/en/wp-content/uploads/sites/4/bfi_thumb/512512_white-1-oc0qzgfnu464mxtidqmfwltdifjfkaoqx4tnrzswsg.png
+Pics.io,tech,,https://pics.io/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pics.io_logo.png/220px-Pics.io_logo.png
+eSputnik,tech,,https://esputnik.com/,https://image.simplecastcdn.com/images/70d6aec1-d178-4a8b-a7a8-104adee50899/aa5993c6-b9c0-404b-9994-3a8f79e50246/3000x3000/blue-logo-esputnik22-big.jpg?aid=rss_feed
+YouScan ,tech,,https://youscan.io/,https://startpack.ru/repository/application/214/logo.png
+Competera,tech,,https://competera.net/,https://www.shopolog.ru/s/img/services/02/a9/800x400_02a997c361c7e177a5980ab5d26693f1___jpg____4_cafe630f.png
+Figma,tech,09.03.2022,https://www.figma.com/,https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg
+Zoom,online services,,https://zoom.us/,https://logos-world.net/wp-content/uploads/2021/02/Zoom-Logo.png
+Depositphotos,online services,08.03.2022,https://depositphotos.com/,https://upload.wikimedia.org/wikipedia/commons/9/9b/Depositphotos_logo.jpg
+VistaCreate,online services,08.03.2022,https://create.vista.com/,https://happymonday.ua/wp-content/uploads/2021/07/VistaCreate_H_Color.png
+Etsy,online services,02.03.2022,https://www.etsy.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Etsy_logo.svg/2560px-Etsy_logo.svg.png
 Upwork,online services,07.03.2022,https://www.upwork.com/blog/a-letter-from-our-ceo-march-2022,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Upwork-logo.svg/2560px-Upwork-logo.svg.png
-Amazon ,online services,,,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png
+Freelancehunt,online services,09.03.2022,https://freelancehunt.com/,https://freelancehunt.com/static/images/mail/logo/freelancehunt-ru@2x.png
+Tiu,online services,09.03.2022,https://эко-рф.рф/,https://gruzdevv.ru/wp-content/uploads/2022/01/tiu.ru_-1280x720.png
+Amazon ,online services,,https://www.amazon.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png
 Parimatch,online services,01.03.2022,https://www.facebook.com/parimatch.tech/posts/1893854910807334,https://www.klubok.net/wp-content/uploads/2021/07/pm-logo1.png
-Airbnb,online services,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png
-Booking,online services,,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Booking.com_Logo.svg/2560px-Booking.com_Logo.svg.png
-Jooble,online services,,,https://robota.kpi.ua/wp-content/uploads/2020/08/jooble-1.png
+Airbnb,online services,06.03.2022,https://www.airbnb.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png
+Booking,online services,,https://www.booking.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Booking.com_Logo.svg/2560px-Booking.com_Logo.svg.png
+Jooble,online services,,https://www.jooble.com/,https://robota.kpi.ua/wp-content/uploads/2020/08/jooble-1.png
 Coursera,online services,04.03.2022,https://blog.coursera.org/coursera-response-to-the-humanitarian-crisis-in-ukraine,https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Coursera_logo.svg/2560px-Coursera_logo.svg.png
-Bolt,online services,,,https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Bolt_logo.png/800px-Bolt_logo.png
-Bumble,online services,08.03.2022,,https://logos-world.net/wp-content/uploads/2021/02/Bumble-Logo.png
+Bolt,online services,,https://www.bolt.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Bolt_logo.png/800px-Bolt_logo.png
+Badoo,online services,09.03.2022,https://www.badoo.com/,https://1000logos.net/wp-content/uploads/2020/09/Badoo-Logo.png
+Bumble,online services,08.03.2022,https://www.bumble.com/,https://logos-world.net/wp-content/uploads/2021/02/Bumble-Logo.png
+Readdle,online services,09.03.2022,https://www.readdle.com/,https://upload.wikimedia.org/wikipedia/commons/c/cd/Readdle.png
 Cisco,online services,04.03.2022,https://techartica.com/cisco-left-russia-her-devices-future-is-in-jeopardy/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/2560px-Cisco_logo_blue_2016.svg.png
-SPOTIFY,online services,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png
-Chivas,alcohol,03.03.2022,,https://logos-world.net/wp-content/uploads/2021/08/Chivas-Logo.png
-Jameson,alcohol,03.03.2022,,https://logos-world.net/wp-content/uploads/2020/12/Jameson-Symbol.png
-Ballantine's,alcohol,03.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ballantines_logo.svg/1200px-Ballantines_logo.svg.png
-Absolut,alcohol,03.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Logo-absolut.svg/2560px-Logo-absolut.svg.png
-Beefeater,alcohol,03.03.2022,,https://alcomag.ua/upload/iblock/7df/immcq711sgy74i4y3xoidufn90v0kf6d.png
-Johnnie Walker,alcohol,03.03.2022,,https://logowik.com/content/uploads/images/547_johnnie_walker.jpg
-White Horse,alcohol,03.03.2022,,https://www.pnl.mu/wp-content/uploads/2019/04/New_white-horse-logo.png
-Guinness,alcohol,03.03.2022,,https://www.ggog.golf/wp-content/uploads/2016/04/guinness-logo.png
-Bailey's,alcohol,03.03.2022,,https://1000logos.net/wp-content/uploads/2020/01/Baileys-Logo.jpg
-Captain Morgan,alcohol,03.03.2022,,https://www.kindpng.com/picc/m/244-2443938_captain-morgan-captain-morgan-logo-2018-hd-png.png
-Nemiroff,alcohol,03.03.2022,,https://eba.com.ua/wp-content/uploads/2009/08/nemiroff-combo-logo-vodka_K-1.png
-Smirnoff,alcohol,,,https://logowik.com/content/uploads/images/158_smirnoff_logo.jpg
-Simple,alcohol,,,https://upload.wikimedia.org/wikipedia/ru/thumb/3/30/Simple-logo.svg/1200px-Simple-logo.svg.png
-Carlsberg,alcohol,,,https://logos-world.net/wp-content/uploads/2020/11/Carlsberg-Logo.png
-Estée Lauder,cosmetics,,,https://logos-world.net/wp-content/uploads/2020/12/Estee-Lauder-Logo.png
-Sephora,cosmetics,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Sephora_logo.svg/2560px-Sephora_logo.svg.png
-Guerlain,cosmetics,,,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/GUERLAIN.svg/2560px-GUERLAIN.svg.png
-MAKE UP FOR EVER,cosmetics,,,https://seeklogo.com/images/M/make-up-for-ever-logo-AD3BB24D0C-seeklogo.com.png
-Unilever,cosmetics,08.03.2022,,https://upload.wikimedia.org/wikipedia/ru/thumb/e/e4/Unilever.svg/1200px-Unilever.svg.png
-Procter & Gamble,cosmetics,08.03.2022,,https://inventure.com.ua/upload/1395913969_maxresdefault.jpg
+SPOTIFY,online services,,https://www.spotify.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png
+LetyShops,online services,,https://www.letyshops.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Letyshops.jpg/1200px-Letyshops.jpg
+Chivas,alcohol,03.03.2022,https://www.bbc.com/news/uk-scotland-scotland-business-60625374,https://logos-world.net/wp-content/uploads/2021/08/Chivas-Logo.png
+Jameson,alcohol,03.03.2022,https://outsider.com/lifestyle/food-and-drink/jameson-guinness-suspend-sales-russia-amid-ukraine-invasion/,https://logos-world.net/wp-content/uploads/2020/12/Jameson-Symbol.png
+Ballantine's,alcohol,03.03.2022,https://www.ballantines.com/en/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ballantines_logo.svg/1200px-Ballantines_logo.svg.png
+Absolut,alcohol,03.03.2022,https://www.portsmouth.co.uk/business/consumer/exclusive-wetherspoons-to-drop-russian-drink-over-invasion-3591665,https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Logo-absolut.svg/2560px-Logo-absolut.svg.png
+Beefeater,alcohol,03.03.2022,https://www.beefeatergin.com/en-EN,https://alcomag.ua/upload/iblock/7df/immcq711sgy74i4y3xoidufn90v0kf6d.png
+Johnnie Walker,alcohol,03.03.2022,https://www.bbc.com/news/uk-scotland-scotland-business-60625374,https://logowik.com/content/uploads/images/547_johnnie_walker.jpg
+White Horse,alcohol,03.03.2022,https://www.bbc.com/news/uk-scotland-scotland-business-60625374,https://www.pnl.mu/wp-content/uploads/2019/04/New_white-horse-logo.png
+Guinness,alcohol,03.03.2022,https://www.jpost.com/breaking-news/article-700775,https://www.ggog.golf/wp-content/uploads/2016/04/guinness-logo.png
+Baileys,alcohol,03.03.2022,https://www.baileys.com/en-us/,https://1000logos.net/wp-content/uploads/2020/01/Baileys-Logo.jpg
+Captain Morgan,alcohol,03.03.2022,https://www.jpost.com/breaking-news/article-700775,https://www.kindpng.com/picc/m/244-2443938_captain-morgan-captain-morgan-logo-2018-hd-png.png
+Nemiroff,alcohol,03.03.2022,https://www.themoscowtimes.com/2010/11/12/russian-standard-to-buy-ukraines-nemiroff-a2922,https://eba.com.ua/wp-content/uploads/2009/08/nemiroff-combo-logo-vodka_K-1.png
+Smirnoff,alcohol,,https://www.mirror.co.uk/news/uk-news/smirnoff-vodka-uk-russian-roots-26386756,https://logowik.com/content/uploads/images/158_smirnoff_logo.jpg
+Simple,alcohol,,http://www.simple-logistic.com/,https://upload.wikimedia.org/wikipedia/ru/thumb/3/30/Simple-logo.svg/1200px-Simple-logo.svg.png
+Carlsberg,alcohol,,https://ua.interfax.com.ua/news/general/807208.html,https://logos-world.net/wp-content/uploads/2020/11/Carlsberg-Logo.png
+Estée Lauder,cosmetics,,https://www.dailymail.co.uk/news/article-10589095/The-Great-Cancellation-Putin-continues-cosmetic-giant-Estee-Lauder-IBM-leave.html,https://logos-world.net/wp-content/uploads/2020/12/Estee-Lauder-Logo.png
+Sephora,cosmetics,,https://247newsagency.com/opinion/81337.html,https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Sephora_logo.svg/2560px-Sephora_logo.svg.png
+Guerlain,cosmetics,,https://www.guerlain.com/ru/ru,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/GUERLAIN.svg/2560px-GUERLAIN.svg.png
+MAKE UP FOR EVER,cosmetics,,https://sephora.ru/brands/make_up_for_ever/,https://seeklogo.com/images/M/make-up-for-ever-logo-AD3BB24D0C-seeklogo.com.png
+Unilever,cosmetics,08.03.2022,https://edition.cnn.com/europe/live-news/ukraine-russia-putin-news-03-08-22/h_ef16d2ae14455ffcd4d22a45db8f462d,https://upload.wikimedia.org/wikipedia/ru/thumb/e/e4/Unilever.svg/1200px-Unilever.svg.png
+Procter & Gamble,cosmetics,08.03.2022,https://financialpost.com/pmn/business-pmn/pg-ending-new-capital-investments-reducing-portfolio-in-russia,https://inventure.com.ua/upload/1395913969_maxresdefault.jpg
 Formula 1,sport,03.03.2022,https://www.formula1.com/en/latest/article.formula-1-terminates-contract-with-russian-grand-prix-promoter.5geFNbONEePwRCSQj25Xg3.html,https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/F1.svg/2560px-F1.svg.png
-FIFA,sport,,,https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FIFA_logo_without_slogan.svg/2560px-FIFA_logo_without_slogan.svg.png
-UEFA,sport,,,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/UEFA_logo.svg/1200px-UEFA_logo.svg.png
+FIFA,sport,,https://www.cbsnews.com/news/russia-fifa-world-cup-uefa/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/FIFA_logo_without_slogan.svg/2560px-FIFA_logo_without_slogan.svg.png
+UEFA,sport,,https://www.cbsnews.com/news/russia-fifa-world-cup-uefa/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/UEFA_logo.svg/1200px-UEFA_logo.svg.png
 NHL,sport,28.02.2022,https://www.nhl.com/ru/news/zayavlenie-nhl-o-vtorzhenii-rossii-v-ukrainu/c-331296560?tid=331296664,https://upload.wikimedia.org/wikipedia/ru/thumb/3/3a/05_NHL_Shield.svg/1200px-05_NHL_Shield.svg.png
 Basketball euroleague,sport,28.02.2022,https://www.championat.com/basketball/news-4625093-evroliga-oficialno-priostanovila-uchastie-rossijskih-klubov-v-turnire.html,https://dd20lazkioz9n.cloudfront.net/wp-content/uploads/2021/06/Euroleague_Logo_Stacked.png
 International Olympic Committee,sport,06.03.2022,https://www.epravda.com.ua/rus/news/2022/03/6/683390/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/IOC_Logo.svg/1200px-IOC_Logo.svg.png
-Premier League,sport,08.03.2022,,https://upload.wikimedia.org/wikipedia/ru/thumb/f/f2/Premier_League_Logo.svg/2560px-Premier_League_Logo.svg.png
+Premier League,sport,08.03.2022,https://www.theguardian.com/football/2022/mar/08/premier-league-suspends-russian-tv-broadcast-deal-and-gives-1m-to-ukraine,https://upload.wikimedia.org/wikipedia/ru/thumb/f/f2/Premier_League_Logo.svg/2560px-Premier_League_Logo.svg.png
+Rossignol,sport,09.03.2022,https://lostsports.com/french-ski-manufacturer-rossignol-suspends-cooperation-with-russia/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Rossignol-logo.svg/1280px-Rossignol-logo.svg.png
 Ernst & Young,audit company,07.03.2022,https://www.ft.com/content/5b26e0e8-af55-4b33-b55e-4894875c5692,https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/EY_logo_2019.svg/1200px-EY_logo_2019.svg.png
-Deloitte,audit company,,,https://upload.wikimedia.org/wikipedia/commons/8/82/DeloitteNewLogo.png
-PwC,audit company,,,https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1280px-PricewaterhouseCoopers_Logo.svg.png
-KPMG,audit company,,,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/KPMG_logo.svg/1280px-KPMG_logo.svg.png
-Valio,food,,,https://yt3.ggpht.com/ytc/AKedOLR_cZBKCBz7re1bx0zg1AXuFJvBLVP7kKfpkHtc_Q=s900-c-k-c0x00ffffff-no-rj
-Paulig,food,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Paulig_wordmark.svg/1200px-Paulig_wordmark.svg.png
-Fazer,food,,,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fazer_logo.svg/1280px-Fazer_logo.svg.png
+Deloitte,audit company,,https://www.businessinsider.com/pwc-kmpg-russia-belarus-ukraine-invasion-accounting-big-four-mckinsey-2022-3,https://upload.wikimedia.org/wikipedia/commons/8/82/DeloitteNewLogo.png
+PwC,audit company,,https://www.businessinsider.com/pwc-kmpg-russia-belarus-ukraine-invasion-accounting-big-four-mckinsey-2022-3,https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/PricewaterhouseCoopers_Logo.svg/1280px-PricewaterhouseCoopers_Logo.svg.png
+KPMG,audit company,,https://www.businessinsider.com/pwc-kmpg-russia-belarus-ukraine-invasion-accounting-big-four-mckinsey-2022-3,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/KPMG_logo.svg/1280px-KPMG_logo.svg.png
+Valio,food,,https://ua.interfax.com.ua/news/general/809991-amp.html,https://yt3.ggpht.com/ytc/AKedOLR_cZBKCBz7re1bx0zg1AXuFJvBLVP7kKfpkHtc_Q=s900-c-k-c0x00ffffff-no-rj
+Paulig,food,,https://ua.interfax.com.ua/news/general/809991-amp.html,https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Paulig_wordmark.svg/1200px-Paulig_wordmark.svg.png
+Fazer,food,,https://www.helsinkitimes.fi/business/21132-fazer-and-s-group-latest-finnish-companies-to-pull-back-from-russia.html,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Fazer_logo.svg/1280px-Fazer_logo.svg.png
 Coca-Cola,food,,https://www.newsnationnow.com/us-news/coca-cola-pepsi-face-boycotts-over-continued-russia-operations/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1280px-Coca-Cola_logo.svg.png
 McDonald's,food,08.03.2022,https://corporate.mcdonalds.com/corpmcd/en-us/our-stories/article/ourstories.Russia-update.html,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/1280px-McDonald%27s_logo.svg.png
-Pepsi,food,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Pepsi_logo_new.svg/640px-Pepsi_logo_new.svg.png
-7Up,food,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/7-up_Logo.svg/1200px-7-up_Logo.svg.png
-Mirinda,food,08.03.2022,,https://1000logos.net/wp-content/uploads/2021/03/Mirinda-Logo-2012.png
-Starbucks,food,08.03.2022,,https://upload.wikimedia.org/wikipedia/ru/thumb/3/35/Starbucks_Coffee_Logo.svg/1200px-Starbucks_Coffee_Logo.svg.png
-Cannes Festival,art,,,https://upload.wikimedia.org/wikipedia/sco/thumb/d/d8/Festival_de_Cannes_logo.svg/1280px-Festival_de_Cannes_logo.svg.png
+Pepsi,food,08.03.2022,https://www.cnbc.com/2022/03/08/coca-cola-follows-mcdonalds-starbucks-in-suspending-business-in-russia.html,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Pepsi_logo_new.svg/640px-Pepsi_logo_new.svg.png
+7Up,food,08.03.2022,https://www.silkway.news/and-pepsico-will-not-work-in-61560/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/7-up_Logo.svg/1200px-7-up_Logo.svg.png
+Mirinda,food,08.03.2022,https://www.silkway.news/and-pepsico-will-not-work-in-61560/,https://1000logos.net/wp-content/uploads/2021/03/Mirinda-Logo-2012.png
+Starbucks,food,08.03.2022,https://www.bbc.com/news/business-60665877,https://upload.wikimedia.org/wikipedia/ru/thumb/3/35/Starbucks_Coffee_Logo.svg/1200px-Starbucks_Coffee_Logo.svg.png
+KFC,food,09.03.2022,https://www.theguardian.com/world/2022/mar/09/mothercare-and-owner-of-kfc-pause-business-in-russia-yumm,https://brandslogos.com/wp-content/uploads/thumbs/kfc-logo-vector-1.svg
+Pizza Hut,food,09.03.2022,https://www.theguardian.com/world/2022/mar/09/mothercare-and-owner-of-kfc-pause-business-in-russia-yumm,https://static.wikia.nocookie.net/tsklogos/images/9/99/Pizza_Hut.svg/revision/latest?cb=20200729132610&path-prefix=ru
+Lipton,food,08.03.2022,https://edition.cnn.com/europe/live-news/ukraine-russia-putin-news-03-08-22/h_ef16d2ae14455ffcd4d22a45db8f462d,https://static.wikia.nocookie.net/logopedia/images/f/f7/Lipton-90s.svg/revision/latest/scale-to-width-down/2000?cb=20210530200918
+Heineken,food,09.03.2022,https://twitter.com/HEINEKENCorp/status/1501453204357320706,https://cdn.worldvectorlogo.com/logos/heineken-logo.svg
+Cannes Festival,art,,https://deadline.com/2022/03/cannes-film-festival-says-will-not-welcome-official-russian-delegations-no-comment-russian-films-being-selected-1234968049/,https://upload.wikimedia.org/wikipedia/sco/thumb/d/d8/Festival_de_Cannes_logo.svg/1280px-Festival_de_Cannes_logo.svg.png
 Venice Film Festival,art,02.03.2022,https://www.hollywoodreporter.com/movies/movie-news/venice-film-festival-not-banning-russian-filmmakers-1235102672/,https://cdn.wionews.com/sites/default/files/styles/story_page/public/2020/05/25/141784-untitled-design40.jpg
 le Guide Michelin,art,04.03.2022,https://www.lefigaro.fr/gastronomie/guerre-en-ukraine-le-guide-michelin-suspend-son-activite-en-russie-20220304,https://www.pngkit.com/png/full/279-2798829_logo-guide-michelin-2018.png
-Universal Music Group,art,08.03.2022,,https://www.universalmusic.com/wp-content/uploads/2015/09/universal-music-group-logo.png
-Стивен Кинг,art,06.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Stephen_King_Signature.svg/2560px-Stephen_King_Signature.svg.png
-GQ,press,08.03.2022,,https://cdn.worldvectorlogo.com/logos/gq.svg
-Vogue,press,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/VOGUE_LOGO.svg/1544px-VOGUE_LOGO.svg.png
-Tatler,press,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tatler_logo.svg/1280px-Tatler_logo.svg.png
-Glamour,press,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/6/68/Glamour-Logo.svg
-AD,press,08.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/AD_Magazine_logo.svg/2560px-AD_Magazine_logo.svg.png
-FedEx,transportation,02.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/FedEx_Express.svg/1280px-FedEx_Express.svg.png
-UPS,transportation,02.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/United_Parcel_Service_logo_2014.svg/859px-United_Parcel_Service_logo_2014.svg.png
-Maersk,transportation,02.03.2022,,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Maersk_Group_Logo.svg/2560px-Maersk_Group_Logo.svg.png
-MSC,transportation,02.03.2022,,https://upload.wikimedia.org/wikipedia/commons/e/ef/Msc_kreuzfahrten_logo.png
-British Petroleum,fuel,,,https://logos-world.net/wp-content/uploads/2020/08/BP-Emblem.png
-Shell,fuel,05.03.2022,https://twitter.com/Shell/status/1500179430605471747,https://cdn.worldvectorlogo.com/logos/shell-3.svg
-British Petrolium,fuel,,,https://upload.wikimedia.org/wikipedia/ru/thumb/e/e7/BP_Logo.svg/1200px-BP_Logo.svg.png
-All3Media,tv,,,https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/All3Media_Logo_2021.svg/1200px-All3Media_Logo_2021.svg.png
-ITV Studios,tv,,,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/ITV_Studios_logo.svg/1200px-ITV_Studios_logo.svg.png
-BBC,tv,,,https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/BBC.svg/1280px-BBC.svg.png
-YIT,construction,,,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/YIT_logo.svg/2560px-YIT_logo.svg.png
-OBI,construction,,,https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Obi.svg/2560px-Obi.svg.png
-IKEA,interior,04.03.2022,https://about.ikea.com/en/newsroom/2022/03/03/ikea-pauses-operations-in-russia-and-belarus,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/2560px-Ikea_logo.svg.png
+Universal Music Group,art,08.03.2022,https://www.voanews.com/a/iconic-us-brands-join-exodus-of-western-companies-from-russia-over-invasion-of-ukraine-/6476657.html,https://www.universalmusic.com/wp-content/uploads/2015/09/universal-music-group-logo.png
+Steven King,art,06.03.2022,https://twitter.com/StephenKing/status/1500129538751275009,https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Stephen_King_Signature.svg/2560px-Stephen_King_Signature.svg.png
+GQ,press,08.03.2022,https://www.instagram.com/p/Ca4QfTaq0uJ/,https://cdn.worldvectorlogo.com/logos/gq.svg
+Vogue,press,08.03.2022,https://www.instagram.com/p/Ca4Wu2kr7Sl/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/VOGUE_LOGO.svg/1544px-VOGUE_LOGO.svg.png
+Tatler,press,08.03.2022,https://www.instagram.com/p/Ca4V9aPg-9G/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tatler_logo.svg/1280px-Tatler_logo.svg.png
+AD,press,08.03.2022,https://www.instagram.com/p/Ca4ajlWI2IG/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/AD_Magazine_logo.svg/2560px-AD_Magazine_logo.svg.png
+FedEx,transportation,02.03.2022,https://www.reuters.com/business/autos-transportation/ups-fedex-halting-shipments-russia-ukraine-2022-02-27/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/FedEx_Express.svg/1280px-FedEx_Express.svg.png
+UPS,transportation,02.03.2022,https://www.reuters.com/business/autos-transportation/ups-fedex-halting-shipments-russia-ukraine-2022-02-27/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/United_Parcel_Service_logo_2014.svg/859px-United_Parcel_Service_logo_2014.svg.png
+Maersk,transportation,02.03.2022,https://www.reuters.com/business/maersk-considers-suspending-all-shipments-russia-2022-02-28/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Maersk_Group_Logo.svg/2560px-Maersk_Group_Logo.svg.png
+MSC,transportation,02.03.2022,https://www.msc.com/,https://upload.wikimedia.org/wikipedia/commons/e/ef/Msc_kreuzfahrten_logo.png
+All3Media,tv,,https://all3media.com/,https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/All3Media_Logo_2021.svg/1200px-All3Media_Logo_2021.svg.png
+ITV Studios,tv,,https://itvstudios.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/ITV_Studios_logo.svg/1200px-ITV_Studios_logo.svg.png
+Discovery,tv,09.03.2022,https://www.reuters.com/business/media-telecom/discovery-suspend-broadcasts-russia-2022-03-09/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/1200px-2019_Discovery_logo.svg.png
+HGTV,tv,09.03.2022,https://www.reuters.com/business/media-telecom/discovery-suspend-broadcasts-russia-2022-03-09/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/HGTV_logo.png/1280px-HGTV_logo.png
+Animal Planet,tv,09.03.2022,https://www.reuters.com/business/media-telecom/discovery-suspend-broadcasts-russia-2022-03-09/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Animal_Planet_logo.svg/1280px-Animal_Planet_logo.svg.png
+TLC,tv,09.03.2022,https://www.reuters.com/business/media-telecom/discovery-suspend-broadcasts-russia-2022-03-09/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/TLC_Logo.svg/1280px-TLC_Logo.svg.png
+Eurosport,tv,09.03.2022,https://www.reuters.com/business/media-telecom/discovery-suspend-broadcasts-russia-2022-03-09/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Eurosport_logo_%282001-2011%29.svg/2560px-Eurosport_logo_%282001-2011%29.svg.png
+BBC,tv,,https://www.bbcrussian.com/russian,https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/BBC.svg/1280px-BBC.svg.png
+YIT,other,,https://www.yitgroup.com/en,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/YIT_logo.svg/2560px-YIT_logo.svg.png
+OBI,other,,https://www.insightdiy.co.uk/news/obi-group-discontinues-operations-in-russia/10973.htm,https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Obi.svg/2560px-Obi.svg.png
+IKEA,other,04.03.2022,https://about.ikea.com/en/newsroom/2022/03/03/ikea-pauses-operations-in-russia-and-belarus,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/2560px-Ikea_logo.svg.png
+British Petroleum,other,,https://www.bp.com/,https://logos-world.net/wp-content/uploads/2020/08/BP-Emblem.png
+Shell,other,05.03.2022,https://twitter.com/Shell/status/1500179430605471747,https://cdn.worldvectorlogo.com/logos/shell-3.svg
+Winston,other,09.03.2022,https://www.imperialbrandsplc.com/media/key-announcements/2022/update-on-russia---ukraine.html,https://www.imperialbrandsplc.com/media/key-announcements/2022/update-on-russia---ukraine.html
+West,other,09.03.2022,https://www.imperialbrandsplc.com/media/key-announcements/2022/update-on-russia---ukraine.html,https://cdn.worldvectorlogo.com/logos/west-zigarettenmarke.svg
+Davidoff,other,09.03.2022,https://www.imperialbrandsplc.com/media/key-announcements/2022/update-on-russia---ukraine.html,https://cdn.worldvectorlogo.com/logos/davidoff-2.svg
+UPM,other,09.03.2022,https://www.upm.com/ru/,https://upload.wikimedia.org/wikipedia/ru/thumb/c/cd/UPM_Logo.svg/1024px-UPM_Logo.svg.png
+Circle K,other,09.03.2022,https://www.circlek.com/,https://logojinni.com/ru/image/logos/circle%20k-759.svg
