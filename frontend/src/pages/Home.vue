@@ -24,7 +24,7 @@
           </div>
            <div class="news-line_btm_right">
               <div class="brands-animation">
-                <div class="brands-animation__item">BMW IKEA NIKE MCDONALDS CISCO FORMULA1 NETFLIX COURSERA</div>
+                <div class="brands-animation__item">BMW IKEA NIKE MCDONALDS CISCO FORMULA1 NETFLIX COURSERA Apple Louis Vuitton AMD Puma Oracle American Express Dior UBISOFT Victoria's Secret Upwork Porsche Azur Air Vogue Mothercare PayPal Sony Sephora BBC Shell</div>
                 <div class="brands-animation__item">BMW IKEA NIKE MCDONALDS CISCO FORMULA1 NETFLIX COURSERA</div>
                 <div class="brands-animation__item">BMW IKEA NIKE MCDONALDS CISCO FORMULA1 NETFLIX COURSERA</div>
               </div>
@@ -32,17 +32,23 @@
         </div>
       </div>
     </section>
-    <!-- <section class="about-project">
+    <section class="about-project">
       <div class="about-project__wrapper">
         <div class="about-project__img">
           <img src="@/assets/images/russian-agression.jpeg" alt="russian agression" />
         </div>
         <div class="about-project__text">
-          <h2></h2>
-          <p></p>
+          <div class="about-project__text__header">
+            <div class="count">{{count}}</div>
+            <h2> brands in various industries throughout the globe have already stopped working in Russia and joined the protest to support Ukraine. </h2>
+          </div>
+          <p>On 24th of February at 5 am, Russia invaded Ukraine, bombarding its peaceful cities. It is the largest conventional military attack in Europe since <a target="_blank" href="https://edition.cnn.com/2022/02/24/politics/us-military-ukraine-russia/index.html"> World War II</a>.</p>
+          <p>The products you created should not be used in the country, which tries to deprive Ukraine of its freedom and democracy. </p>
+          <p>We call on your company to end any existing relationships and stop doing business in russia until the russian aggression in Ukraine is fully stopped, and fair order is restored. </p>
+          <p class="marked">It is no longer a question of business. It is a question of peace and life. </p>
         </div>
       </div>
-    </section> -->
+    </section>
     <section class="brands-section">
       <div class="brands-section__wrapper">
         <div class="brands-section__sidebar">
@@ -61,7 +67,7 @@
           </div>
           <div class="brands-section__cards__wrapper">
           <div class="brands-section__cards__item" v-for="brand in items" :key="brand.id">
-            <a class="brands-section__cards__item__link" target="_blank" :href="brand.article != '' ? brand.article : ''">
+            <a class="brands-section__cards__item__link" :class="{'events-none' : brand.article == ''}" target="_blank" :href="brand.article != '' ? brand.article : '/'">
               <div class="brands-section__cards__item__logo">
                 <img :src="brand.logo" alt="ban-russia-brand" />
               </div>
