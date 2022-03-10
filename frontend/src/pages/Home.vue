@@ -12,7 +12,7 @@
               <p class="support-tag">#standwithukraine</p>
           </div>
            <div class="news-line_top_right">
-              <p>Business activity in Russia = support for putin’s regime.</p>
+              <p>Business activity in Russia will be perceived as support for putin’s regime</p>
           </div>
         </div>
         <div class="news-line_btm">
@@ -45,16 +45,17 @@
           <p>On 24th of February at 5 am, Russia invaded Ukraine, bombarding its peaceful cities. It is the largest conventional military attack in Europe since <a target="_blank" href="https://edition.cnn.com/2022/02/24/politics/us-military-ukraine-russia/index.html"> World War II</a>.</p>
           <p>The products you created should not be used in the country, which tries to deprive Ukraine of its freedom and democracy. </p>
           <p>We call on your company to end any existing relationships and stop doing business in russia until the russian aggression in Ukraine is fully stopped, and fair order is restored. </p>
-          <p class="marked">It is no longer a question of business. It is a question of peace and life. </p>
+          <p class="marked marked_bold">Every ruble paid in taxes to russia turns into deaths and tears of Ukrainian people.</p>
+          <p class="marked_bold">It is no longer a question of business. It is a question of peace and life. </p>
         </div>
       </div>
     </section>
     <section class="brands-section">
       <div class="brands-section__wrapper">
         <div class="brands-section__sidebar">
-          <div class="brands-section__sidebar__title">Filters</div>
+          <div class="brands-section__sidebar__title">Categories</div>
           <div class="brands-section__categories">
-            <div class="brands-section__categories__item" v-for="category in categories" :key="category.id">
+            <div class="brands-section__categories__item" v-for="category in categories" :key="category.id" :class="{'brands-section__categories__item_selected': selectedCategory == category}" >
               <div class="brands-section__categories__item__title" @click="fetchItemsInCategory(category)">
                 {{category}}
               </div>
@@ -95,7 +96,8 @@ export default {
       items: [],
       interval: null,
       time: null,
-      loading: false
+      loading: false,
+      selectedCategory: 'all'
     }
   },
   methods: {
@@ -103,7 +105,13 @@ export default {
       await axios.get('https://api.byebye-russia.com/count')
         .then((response) => {
           this.count = response.data.count
-          this.categories = response.data.categories
+          const fetchedCategories = response.data.categories.map(category => {
+            if (category === 'clothes') {
+              category = 'clothes & accessories'
+            }
+            return category
+          })
+          this.categories = fetchedCategories
         })
         .catch((error) => {
           console.log(error)
@@ -112,7 +120,11 @@ export default {
     },
     
     async fetchItemsInCategory (category) {
+      this.selectedCategory = category
       this.loading = true
+      if (category === 'clothes & accessories') {
+        category = 'clothes'
+      }
       await axios.get('https://api.byebye-russia.com/companies/' + category)
         .then((response) => {
           this.items = response.data
@@ -122,6 +134,16 @@ export default {
           this.loading = false
           console.log(error)
         })
+    },
+    fixSidebar () {
+      const sidebar = document.querySelector('.brands-section__sidebar')
+      const brandsSection = document.querySelector('.brands-section')
+      const brandsSectionOffset = brandsSection.getBoundingClientRect().top
+      if (brandsSectionOffset <= 0) {
+        sidebar.classList.add('fixed')
+      } else {
+        sidebar.classList.remove('fixed')
+      }
     }
   },
   mounted () {
@@ -131,6 +153,9 @@ export default {
     dayDate: () => {
       return new Date().toLocaleDateString()
     }
+  },
+  beforeMount () {
+    window.addEventListener('scroll', this.fixSidebar)
   },
   beforeDestroy () {
     clearInterval(this.interval)
