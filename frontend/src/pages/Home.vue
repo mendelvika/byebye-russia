@@ -81,6 +81,11 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="contacts_wrapper">
+            <div class="contacts"><a target="_blank" href="http://t.me/lkravchenko">Contact lkravchenko <img src="@/assets/images/telegram-icon.svg" /> </a></div>
+      </div>
+    </footer>
   </main>
 </template>
 
