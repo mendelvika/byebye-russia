@@ -62,15 +62,19 @@
             </div>
           </div>
         </div>
-        <div class="brands-section__cards">
+        <div class="brands-section__cards" >
           <div class="loader" :class="{'loader_open' : loading}">
             <div class="loader-spin"></div>
           </div>
+          <div class="search-wrapper">
+            <img class="search-icon" src="@/assets/images/search.svg" />
+            <input class="search-input" type="search" v-model="searchedBrand" placeholder="Search" role="searchbox" />
+          </div>
           <div class="brands-section__cards__wrapper">
-          <div class="brands-section__cards__item" v-for="brand in items" :key="brand.id">
+          <div class="brands-section__cards__item" v-for="brand in searchedList" :key="brand.id">
             <a class="brands-section__cards__item__link" :class="{'events-none' : brand.article == ''}" target="_blank" :href="brand.article != '' ? brand.article : '/'">
               <div class="brands-section__cards__item__logo">
-                <img :src="brand.logo" alt="ban-russia-brand" />
+                <img v-lazy="brand.logo" alt="ban-russia-brand" />
               </div>
               <div class="brands-section__cards__item__title">
                 {{ brand.name }}
@@ -83,7 +87,12 @@
     </section>
     <footer class="footer">
       <div class="contacts_wrapper">
-            <div class="contacts"><a target="_blank" href="http://t.me/lkravchenko">Contact lkravchenko <img src="@/assets/images/telegram-icon.svg" /> </a></div>
+        <div class="contacts">
+          <a target="_blank" href="http://t.me/lkravchenko">
+            Contact lkravchenko
+            <img src="@/assets/images/telegram-icon.svg" />
+          </a>
+          </div>
       </div>
     </footer>
   </main>
@@ -93,7 +102,6 @@
 import axios from 'axios'
 export default {
   name: 'IndexPage',
-
   data () {
     return {
       count: 0,
@@ -102,7 +110,8 @@ export default {
       interval: null,
       time: null,
       loading: false,
-      selectedCategory: 'all'
+      selectedCategory: 'all',
+      searchedBrand: null
     }
   },
   methods: {
@@ -151,12 +160,26 @@ export default {
       }
     }
   },
+  watch: {
+    loading () {
+      document.body.style.overflow = this.loading ? 'hidden' : 'auto'
+    }
+  },
   mounted () {
     this.fetchCountAndCategories()
   },
   computed: {
     dayDate: () => {
       return new Date().toLocaleDateString()
+    },
+    searchedList () {
+      if (this.searchedBrand) {
+        return this.items.filter(item => {
+          return item.name.toLowerCase().includes(this.searchedBrand.toLowerCase())
+        })
+      } else {
+        return this.items
+      }
     }
   },
   beforeMount () {

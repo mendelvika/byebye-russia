@@ -255,6 +255,7 @@
     flex-direction: column;
     min-height: 100vh;
     height: 100%;
+    position: relative;
     @include media_tablet{
         min-height: calc(100vh - 48px);
     }
@@ -443,9 +444,10 @@
             }
         }
         @include media_tablet{
+            margin-top: 100px;
             &__wrapper{
                 justify-content: space-between;
-                margin-top: 124px;
+                margin-top: 12px;
                 margin-left: 0;
             }
         }
@@ -453,7 +455,6 @@
             margin-left: 0;
             &__wrapper{
                 justify-content: space-between;
-                margin-top: 124px;
                 margin-left: 0;
             }
         }
@@ -466,6 +467,8 @@
     height: 100vh;
     top: 0px;
     left: 0px;
+    bottom: 0px;
+    right: 0px;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -624,18 +627,24 @@
       align-items: center;
       justify-content: center;
       color: #fff;
-      padding: 8px;
       a{
         color: #fff;
         font-weight: 600;
         font-size: 18px;
         text-decoration: none;
         display: flex;
-      align-items: center;
-      transition: all 0.2s ease;
-      &:hover{
-          color: #9b9b9b;
-      }
+        align-items: center;
+        transition: all 0.2s ease;
+        padding: 12px;
+        &:hover{
+            color: #9b9b9b;
+        }
+        @include media_tablet{
+            padding: 20px 0px;
+            font-size: 14px;
+            width: 100%;
+            justify-content: center;
+        }
       }
       img{
           width: 20px;
@@ -643,4 +652,44 @@
           margin: 0 8px;
           display: inline-block;
       }
+  }
+
+  .search-wrapper{
+      width: 248px;
+      margin: 8px 8px 24px 8px;
+      display: flex;
+      border-bottom: 1px solid rgb(37, 37, 37);
+      align-items: center;
+      .search-icon{
+          width: 20px;
+          height: 20px;
+          margin-right: 8px;
+      }
+    .search-input{
+        padding: 12px 0px;
+        font-size: 16px;
+        width: 100%;
+        &::placeholder{
+            color: rgb(37, 37, 37);
+        }
+        &::-webkit-search-cancel-button{
+            -webkit-appearance: none;
+            background: url(../assets/images/search-delete.svg);
+            height: 12px;
+            width: 12px;
+            background-size: contain;
+            opacity: 0;
+            pointer-events: none;
+        }
+        &:focus{
+            &::-webkit-search-cancel-button{
+                opacity: 0.8;
+                pointer-events: all;
+                cursor: pointer;
+            }
+        }
+    }
+    @include media_tablet{
+        width: 98%;
+    }
   }
