@@ -462,11 +462,10 @@
 }
 
 .loader {
-    position: absolute;
-    width: 100%;
+    position: fixed;
+    width:calc(100% - 268px);
     height: 100vh;
     top: 0px;
-    left: 0px;
     bottom: 0px;
     right: 0px;
     z-index: 10;
@@ -492,6 +491,9 @@
         .loader-spin{
             animation: spin 2s linear infinite;
         }
+    }
+    @include media_tablet{
+        width: 100%;
     }
   }
   

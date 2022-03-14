@@ -56,7 +56,7 @@
           <div class="brands-section__sidebar__title">Categories</div>
           <div class="brands-section__categories">
             <div class="brands-section__categories__item" v-for="category in categories" :key="category.id" :class="{'brands-section__categories__item_selected': selectedCategory == category}" >
-              <div class="brands-section__categories__item__title" @click="fetchItemsInCategory(category)">
+              <div class="brands-section__categories__item__title" @click="selectNewCategory(category)">
                 {{category}}
               </div>
             </div>
@@ -70,17 +70,18 @@
             <img class="search-icon" src="@/assets/images/search.svg" />
             <input class="search-input" type="search" v-model="searchedBrand" placeholder="Search" role="searchbox" />
           </div>
-          <div class="brands-section__cards__wrapper">
-          <div class="brands-section__cards__item" v-for="brand in searchedList" :key="brand.id">
-            <a class="brands-section__cards__item__link" :class="{'events-none' : brand.article == ''}" target="_blank" :href="brand.article != '' ? brand.article : '/'">
-              <div class="brands-section__cards__item__logo">
-                <img v-lazy="brand.logo" alt="ban-russia-brand" />
-              </div>
-              <div class="brands-section__cards__item__title">
-                {{ brand.name }}
-              </div>
-             </a>
-          </div>
+          <div
+            class="brands-section__cards__wrapper">
+            <div class="brands-section__cards__item" v-for="(brand, i) in searchedList" :key="i">
+              <a class="brands-section__cards__item__link" :class="{'events-none' : brand.article == ''}" target="_blank" :href="brand.article != '' ? brand.article : '/'">
+                <div class="brands-section__cards__item__logo">
+                  <img v-lazy="brand.logo" alt="ban-russia-brand" />
+                </div>
+                <div class="brands-section__cards__item__title">
+                  {{ brand.name }}
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -111,7 +112,11 @@ export default {
       time: null,
       loading: false,
       selectedCategory: 'all',
-      searchedBrand: null
+      searchedBrand: null,
+      allPostsLoaded: false,
+      lastId: 0,
+      limit: 20,
+      itemsLength: 20
     }
   },
   methods: {
@@ -130,24 +135,51 @@ export default {
         .catch((error) => {
           console.log(error)
         })
-      await this.fetchItemsInCategory(this.categories[0])
+      this.fetchItemsInCategory(this.categories[0])
+    },
+
+    checkWindowBtm () {
+      window.onscroll = () => {
+        const bottomOfWindow = document.documentElement.scrollTop + window.innerHeight === document.documentElement.offsetHeight
+        if (bottomOfWindow && !this.allPostsLoaded) {
+          this.fetchItemsInCategory(this.selectedCategory)
+        }
+      }
+    },
+
+    selectNewCategory (category) {
+      this.items = []
+      this.lastId = 0
+      this.allPostsLoaded = false
+      const brandsSection = document.querySelector('.brands-section')
+      const top = brandsSection.offsetTop
+      window.scrollTo(0, top)
+      this.fetchItemsInCategory(category)
     },
     
-    async fetchItemsInCategory (category) {
+    fetchItemsInCategory (category) {
       this.selectedCategory = category
       this.loading = true
       if (category === 'clothes & accessories') {
         category = 'clothes'
       }
-      await axios.get('https://api.byebye-russia.com/companies/' + category)
+      axios.get('https://api.byebye-russia.com/companies/' + category + '?last_id=' + this.lastId + '&limit=' + this.limit)
         .then((response) => {
-          this.items = response.data
+          this.items = [...this.items, ...response.data]
+          this.itemsLength = response.data.length
+          this.lastId = this.items.pop().id
           this.loading = false
+          this.checkTotalItems()
         })
         .catch((error) => {
           this.loading = false
           console.log(error)
         })
+    },
+    checkTotalItems () {
+      if (this.itemsLength < this.limit) {
+        this.allPostsLoaded = true
+      }
     },
     fixSidebar () {
       const sidebar = document.querySelector('.brands-section__sidebar')
@@ -167,6 +199,7 @@ export default {
   },
   mounted () {
     this.fetchCountAndCategories()
+    this.checkWindowBtm()
   },
   computed: {
     dayDate: () => {
@@ -180,6 +213,9 @@ export default {
       } else {
         return this.items
       }
+    },
+    loadingDisabled () {
+      return this.allPostsLoaded
     }
   },
   beforeMount () {
